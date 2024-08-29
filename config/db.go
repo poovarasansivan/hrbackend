@@ -10,7 +10,7 @@ var Database *sql.DB
 var err error
 
 func ConnectDB() {
-	dsn := "root:@tcp(127.0.0.1:3306)/hrportal"
+	dsn := "uodjdfoophd8wtcx:LhCTdiGCojRoKW9vcsyC@tcp(bamuzjys35fimiyhi0zw-mysql.services.clever-cloud.com:3306)/bamuzjys35fimiyhi0zw"
 	Database, err = sql.Open("mysql", dsn)
 	if err != nil {
 		fmt.Println("Error connecting to the database: ", err)
